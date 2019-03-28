@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	 <name>mybusiness</name>
+  <version>1.0.0</version>
+  <creationDate>01/01/09</creationDate>
+  <author>themesjoomla.com</author>
+  <authorEmail>webmaster@themesjoomla.com</authorEmail>
+  <authorUrl>http://www.themesjoomla.com</authorUrl>
+  <copyright></copyright>
+  <license>Creative Commons Attribution 2.5 License.</license>
+  <description>
+    <![CDATA[<h3>License</h3>
+      
+      All the free CSS templates on this site are distributed under the  <b><a href="http://creativecommons.org/licenses/by/2.5/"> Creative Commons Attribution 2.5 License.</a></b> This means that you are free:
+      
+      <ul>
+      <li>to copy, distribute, display, and perform the work</li>
+      <li>to make derivative works</li>
+      <li>to make commercial use of the work</li>
+      </ul>
+      Under the following conditions:
+      <ul>
+      <li>You must attribute the work in the manner specified by the author or licensor. (In this case, a link back to my site)</li>
+      <li>For any reuse or distribution, you must make clear to others the license terms of this work</li>
+      <li>Any of these conditions can be waived if you get permission from the copyright holder</li>
+      <li>You can not delete sponsorlinks if template have it.</li>
+      </ul>
+      
+      <h3>Removing the link and template sponsor</h3>
+      
+      If you don't want to link back to themesjoomla.com, you can always pay a link removal donation. This will allow you to use the template link free on one domain name. Also, kindly send me the site's url so I can include it on my list of verified users <br />
+      
+      Please contact to me with <a href="mailto:webmaster@themesjoomla.com">webmaster@themesjoomla.com</a>]]>
+  </description>
+
+	<files>
+		<filename>license.txt</filename>
+	
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>		
+		<filename>images/index.html</filename>
+		<filename>images/logo.png</filename>
+		<filename>images/spotlight.jpg</filename>
+                               
+		<filename>css/index.html</filename>
+		<filename>css/template_css.css</filename>
+		
+		<filename>html/com_content/archive/default_items.php</filename>
+		<filename>html/com_content/archive/default.php</filename>
+		<filename>html/com_content/article/default.php</filename>
+		<filename>html/com_content/category/blog_item.php</filename>
+		<filename>html/com_content/category/blog_links.php</filename>
+		<filename>html/com_content/category/blog.php</filename>
+		<filename>html/com_content/category/default_items.php</filename>
+		<filename>html/com_content/category/default.php</filename>
+		<filename>html/com_content/frontpage/default_item.php</filename>
+		<filename>html/com_content/frontpage/default.php</filename>
+		<filename>html/com_content/section/default.php</filename>
+		<filename>html/com_content/section/blog_item.php</filename>
+		<filename>html/com_content/section/blog.php</filename>
+		<filename>html/com_search/search/default_error.php</filename>
+		<filename>html/com_search/search/default_form.php</filename>
+		<filename>html/com_search/search/default_results.php</filename>
+		<filename>html/com_search/search/default.php</filename>
+		<filename>html/com_user/login/default_login.php</filename>
+		<filename>html/com_user/login/default_logout.php</filename>
+		<filename>html/mod_newsflash/_item.php</filename>
+		<filename>html/mod_newsflash/horiz.php</filename>
+		<filename>html/mod_poll/default.php</filename>
+	</files>
+
+	<positions>
+		<position>mymainmenu</position>	
+		<position>myright</position>
+		<position>myspotlight</position>
+		<position>myuser1</position>
+		<position>myuser2</position>
+		<position>myuser3</position>
+		<position>myfooter</position>
+		<position>debug</position>
+	</positions>
+	<params>
+    <param name="siteName" type="text" default="Themes Joomla" size="50" label="Site Name" description="Set Site Name" />    
+  </params>
+	
+</install>
